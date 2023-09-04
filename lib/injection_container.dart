@@ -45,7 +45,7 @@ Future<void> init() async {
   sl.registerLazySingleton(
     () => Dio(
       BaseOptions(
-        baseUrl: "https://run.mocky.io/v3/",
+        baseUrl: "https://run.mocky.io/v3",
       ),
     ),
   );

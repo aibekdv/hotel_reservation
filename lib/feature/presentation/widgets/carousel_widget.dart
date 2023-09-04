@@ -53,8 +53,14 @@ class _CarouselWidgetState extends State<CarouselWidget> {
                 ),
               ),
               imageUrl: images[index],
-              errorWidget: (context, url, error) => Image.asset(
-                "assets/images/not_found.png",
+              errorWidget: (context, url, error) => Container(
+                decoration: BoxDecoration(
+                  image: const DecorationImage(
+                    image: AssetImage("assets/images/not_found.png"),
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.circular(15),
+                ),
               ),
               imageBuilder: (context, imageProvider) => Container(
                 width: double.infinity,
