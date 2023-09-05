@@ -1,12 +1,12 @@
 // GET_IT INSTANCE
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:reservetion/feature/data/repositories/hotel_repository_impl.dart';
-import 'package:reservetion/feature/domain/repositories/repositories.dart';
-import 'package:reservetion/feature/domain/usecases/get_hotel_usecase.dart';
-import 'package:reservetion/feature/domain/usecases/get_reservation_usecase.dart';
-import 'package:reservetion/feature/domain/usecases/get_rooms_usecase.dart';
-import 'package:reservetion/feature/presentation/cubit/hotel_cubit.dart';
+import 'package:reservation/feature/data/repositories/hotel_repository_impl.dart';
+import 'package:reservation/feature/domain/repositories/repositories.dart';
+import 'package:reservation/feature/domain/usecases/get_hotel_usecase.dart';
+import 'package:reservation/feature/domain/usecases/get_reservation_usecase.dart';
+import 'package:reservation/feature/domain/usecases/get_rooms_usecase.dart';
+import 'package:reservation/feature/presentation/cubit/hotel_cubit.dart';
 
 import 'feature/data/datasources/datasources.dart';
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/config/routes/on_generate_route.dart';
-import 'package:reservetion/feature/data/models/hotel_model.dart';
-import 'package:reservetion/feature/presentation/cubit/hotel_cubit.dart';
-import 'package:reservetion/feature/presentation/widgets/widgets.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/config/routes/on_generate_route.dart';
+import 'package:reservation/feature/data/models/hotel_model.dart';
+import 'package:reservation/feature/presentation/cubit/hotel_cubit.dart';
+import 'package:reservation/feature/presentation/widgets/widgets.dart';
 
 class HotelPage extends StatefulWidget {
   const HotelPage({super.key});

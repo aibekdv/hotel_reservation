@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/feature/domain/entities/tourist_entity.dart';
-import 'package:reservetion/feature/presentation/widgets/widgets.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/feature/domain/entities/tourist_entity.dart';
+import 'package:reservation/feature/presentation/widgets/widgets.dart';
 
 class TouristCardItemWidget extends StatefulWidget {
   final TouristEntity touristEntity;

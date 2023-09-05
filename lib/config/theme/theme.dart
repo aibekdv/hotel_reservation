@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
+import 'package:reservation/config/config.dart';
 
 final themeData = ThemeData(
   useMaterial3: true,

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
+import 'package:reservation/config/config.dart';
 
 class CarouselWidget extends StatefulWidget {
   final List<String> urls;

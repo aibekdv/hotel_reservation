@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/feature/data/models/room_model.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/feature/data/models/room_model.dart';
 
 import 'widgets.dart';
 

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:reservetion/core/error/exception.dart';
-import 'package:reservetion/feature/data/models/models.dart';
+import 'package:reservation/core/error/exception.dart';
+import 'package:reservation/feature/data/models/models.dart';
 
 abstract class RemoteDataSource {
   Future<HotelModel> getHotel();

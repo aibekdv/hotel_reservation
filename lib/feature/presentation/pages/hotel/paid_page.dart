@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/feature/presentation/widgets/widgets.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/feature/presentation/widgets/widgets.dart';
 
 class PaidPage extends StatelessWidget {
   const PaidPage({super.key});

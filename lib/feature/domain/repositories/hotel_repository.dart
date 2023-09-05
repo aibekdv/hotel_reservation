@@ -1,4 +1,4 @@
-import 'package:reservetion/feature/data/models/models.dart';
+import 'package:reservation/feature/data/models/models.dart';
 
 abstract class HotelRepository {
   Future<HotelModel> getHotel();

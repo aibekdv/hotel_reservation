@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:reservetion/config/config.dart';
+import 'package:reservation/config/config.dart';
 
 class CustomInputWidget extends StatelessWidget {
   final String label;

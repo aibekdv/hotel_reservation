@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/feature/presentation/pages/pages.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/feature/presentation/pages/pages.dart';
 
 final class OnGenerateRoute {
   static Route<dynamic> route(RouteSettings settings) {

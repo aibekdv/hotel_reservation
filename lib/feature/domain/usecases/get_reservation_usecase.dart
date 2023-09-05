@@ -1,5 +1,5 @@
-import 'package:reservetion/feature/data/models/models.dart';
-import 'package:reservetion/feature/domain/repositories/repositories.dart';
+import 'package:reservation/feature/data/models/models.dart';
+import 'package:reservation/feature/domain/repositories/repositories.dart';
 
 class GetReservationUseCase {
   final HotelRepository repository;

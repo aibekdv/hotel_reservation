@@ -3,11 +3,11 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
-import 'package:reservetion/config/config.dart';
-import 'package:reservetion/feature/data/models/models.dart';
-import 'package:reservetion/feature/domain/entities/entities.dart';
-import 'package:reservetion/feature/presentation/cubit/hotel_cubit.dart';
-import 'package:reservetion/feature/presentation/widgets/widgets.dart';
+import 'package:reservation/config/config.dart';
+import 'package:reservation/feature/data/models/models.dart';
+import 'package:reservation/feature/domain/entities/entities.dart';
+import 'package:reservation/feature/presentation/cubit/hotel_cubit.dart';
+import 'package:reservation/feature/presentation/widgets/widgets.dart';
 
 class ReservationPage extends StatefulWidget {
   const ReservationPage({super.key});

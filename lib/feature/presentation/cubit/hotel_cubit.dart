@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:reservetion/feature/data/models/hotel_model.dart';
-import 'package:reservetion/feature/data/models/models.dart';
-import 'package:reservetion/feature/data/models/room_model.dart';
-import 'package:reservetion/feature/domain/usecases/get_hotel_usecase.dart';
-import 'package:reservetion/feature/domain/usecases/get_reservation_usecase.dart';
-import 'package:reservetion/feature/domain/usecases/get_rooms_usecase.dart';
+import 'package:reservation/feature/data/models/hotel_model.dart';
+import 'package:reservation/feature/data/models/models.dart';
+import 'package:reservation/feature/data/models/room_model.dart';
+import 'package:reservation/feature/domain/usecases/get_hotel_usecase.dart';
+import 'package:reservation/feature/domain/usecases/get_reservation_usecase.dart';
+import 'package:reservation/feature/domain/usecases/get_rooms_usecase.dart';
 
 part 'hotel_state.dart';
 
